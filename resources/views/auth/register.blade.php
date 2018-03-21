@@ -94,11 +94,15 @@
                             </div>
                         </div>
 
+                        @if (env('ALLOW_SOCIAL_LOGIN'))
                         <p class="text-center margin-bottom-2">
                             Or Use Social Logins to Register
                         </p>
 
+                        
                         @include('partials.socials')
+                        
+                        @endif
 
                     {!! Form::close() !!}
 
