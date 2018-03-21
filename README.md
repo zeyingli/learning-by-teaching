@@ -1,4 +1,4 @@
-#### IST 311 - Learning by Teaching
+## IST 311 - Learning by Teaching
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
