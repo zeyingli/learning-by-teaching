@@ -13,8 +13,20 @@
 |
 */
 
-// Homepage Route
+// Public Route
+// Welcome Page
 Route::get('/', 'WelcomeController@welcome')->name('welcome');
+
+// Start Page 
+Route::get('/start', 'PublicController@index')->name('start');
+Route::post('/start', ['as'=>'personal.store','uses'=>'PublicController@store']);
+
+// Map Page
+Route::get('/show/{id}', 'PublicController@show')->name('show');
+
+// Overview Page
+Route::get('/overview', 'PublicController@overview')->name('overview');
+
 
 // Authentication Routes
 Auth::routes();
@@ -126,3 +138,25 @@ Route::group(['middleware' => ['auth', 'activated', 'role:admin', 'activity', 't
 });
 
 Route::redirect('/php', '/phpinfo', 301);
+
+// Enable/Disable User Registration
+if (!env('ALLOW_USER_REGISTRATION', false))
+{
+    Route::any('/register', function()
+    {
+        abort(403);
+    });
+}
+
+// Enable/Disable Third Party Login
+if (!env('ALLOW_SOCIAL_LOGIN', false))
+{
+    Route::any('/social/handle/{provider}', function()
+    {
+        abort(403);
+    });
+    Route::any('/social/redirect/{provider}', function()
+    {
+        abort(403);
+    });
+}
