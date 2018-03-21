@@ -113,7 +113,7 @@ Showing Your City On The Map
 
 		<br>
 		<a class="btn btn-md btn-success btn-block" href="{{ url('overview') }}" data-toggle="tooltip" title="Show">
-	        <i class="fa fa-eye fa-fw" aria-hidden="true"></i> <span class="hidden-xs hidden-sm">Want to Know How Many People Living Around You?</span>
+	        <i class="fa fa-eye fa-fw" aria-hidden="true"></i> <span class="hidden-xs hidden-sm">Want to Know How Many People Are Living Around You?</span>
 	    </a>
 
 	</div>
