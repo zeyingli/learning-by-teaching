@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-Start Lighting Your City
+Start Lighting Up Your City
 @endsection
 
 @section('content')
@@ -61,7 +61,7 @@ Start Lighting Your City
 			            	</div>
 			        	</div>
 
-			        	{!! Form::button('<i class="fa fa-star" aria-hidden="true"></i>&nbsp;' . 'Lighting Your City On The Map', array('class' => 'btn btn-success btn-flat margin-bottom-1 pull-right','type' => 'submit', )) !!}
+			        	{!! Form::button('<i class="fa fa-star" aria-hidden="true"></i>&nbsp;' . 'Lighting Up Your City On The Map', array('class' => 'btn btn-success btn-flat margin-bottom-1 pull-right','type' => 'submit', )) !!}
 
 			        	{!! Form::close() !!}
 
