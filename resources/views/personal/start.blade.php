@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('template_title')
+Start Lighting Your City
+@endsection
+
 @section('content')
 
 <div class="container">

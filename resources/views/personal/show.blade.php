@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('template_title')
+Showing Your City On The Map
+@endsection
+
 @section('template_linked_css')
 
 <link rel="stylesheet" href="{{ asset('css/custom/map.css') }}">

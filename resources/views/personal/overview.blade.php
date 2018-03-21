@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('template_title')
+Geographic Distribution Statistics
+@endsection
+
 @section('template_linked_css')
 
 <link rel="stylesheet" href="{{ asset('css/custom/map.css') }}">
