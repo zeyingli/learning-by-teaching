@@ -27,6 +27,9 @@ Route::get('/show/{id}', 'PublicController@show')->name('show');
 // Overview Page
 Route::get('/overview', 'PublicController@overview')->name('overview');
 
+// Participant List Page
+Route::get('/participant', 'PublicController@participant')->name('participant');
+
 
 // Authentication Routes
 Auth::routes();

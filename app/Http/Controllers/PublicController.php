@@ -92,4 +92,15 @@ class PublicController extends Controller
 
     	return view('personal.overview')->with($data);
 	}
+
+	/**
+    * Show Participant List Page
+    *
+    * @return \Illuminate\Http\Response
+    */
+    public function participant()
+    {
+    	$users = Personal::paginate(env('USER_LIST_PAGINATION_SIZE'));
+    	return view('personal.participant', compact('users'));
+    }
 }
