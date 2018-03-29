@@ -27,7 +27,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-05"></span>
 							<span class="pulse delay-04"></span></span></div>
 						<div class="show-regin">
-							<span>北京 <i class="fa fa-users" aria-hidden="true"></i> {{ $num_1 }} People</span>
+							<span>北京 (Beijing) <i class="fa fa-users" aria-hidden="true"></i> {{ $num_1 }} People</span>
 						</div>
 					</div>
 					@endif
@@ -38,7 +38,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-09"></span>
 							<span class="pulse delay-08"></span></div>
 						<div class="show-regin">
-							<span>江苏</span>
+							<span>江苏 (Jiangsu)</span>
 							<span><i class="fa fa-users" aria-hidden="true"></i> {{ $num_2 }} People</span>
 						</div>
 					</div>
@@ -50,7 +50,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-05"></span>
 							<span class="pulse delay-04"></span></div>
 						<div class="show-regin">
-							<span>四川</span>
+							<span>四川 (Sichuan)</span>
 							<span><i class="fa fa-users" aria-hidden="true"></i> {{ $num_3 }} People</span>
 						</div>
 					</div>
@@ -62,7 +62,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-02"></span>
 							</div>
 						<div class="show-regin">
-							<span>湖北</span>
+							<span>湖北 (Hubei)</span>
 							<span><i class="fa fa-users" aria-hidden="true"></i> {{ $num_4 }} People</span>
 						</div>
 					</div>
@@ -74,7 +74,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-05"></span>
 							<span class="pulse delay-04"></span></div>
 						<div class="show-regin">
-							<span>广东</span>
+							<span>广东 <br>  (Guangdong)</span>
 							<span><i class="fa fa-users" aria-hidden="true"></i> {{ $num_5 }} People</span>
 						</div>
 					</div>
@@ -86,7 +86,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-02"></span>
 							</div>
 						<div class="show-regin">
-							<span>陕西</span>
+							<span>陕西 (Shanxi)</span>
 							<span><i class="fa fa-users" aria-hidden="true"></i> {{ $num_6 }} People</span>
 						</div>
 					</div>
@@ -98,7 +98,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-05"></span>
 							<span class="pulse delay-04"></span></div>
 						<div class="show-regin">
-							<span>香港</span>
+							<span>香港 (Hongkong)</span>
 							<span><i class="fa fa-users" aria-hidden="true"></i> {{ $num_7 }} People</span>
 						</div>
 					</div>
@@ -110,7 +110,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-05"></span>
 							<span class="pulse delay-04"></span></div>
 						<div class="show-regin">
-							<span>山东</span>
+							<span>山东 (Shandong)</span>
 							<span><i class="fa fa-users" aria-hidden="true"></i> {{ $num_8 }} People</span>
 						</div>
 					</div>
@@ -122,7 +122,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-09"></span>
 							<span class="pulse delay-08"></span></div>
 						<div class="show-regin">
-							<span>辽宁 <i class="fa fa-users" aria-hidden="true"></i> {{ $num_9 }} People</span>
+							<span>辽宁 (Liaoning) <i class="fa fa-users" aria-hidden="true"></i> {{ $num_9 }} People</span>
 						</div>
 					</div>
 					@endif
@@ -133,7 +133,7 @@ Geographic Distribution Statistics
 							<span class="pulse delay-05"></span>
 							<span class="pulse delay-03"></span></div>
 						<div class="show-regin">
-							<span>内蒙古</span>
+							<span>内蒙古 <br> (Inner Monogolia)</span>
 							<span><i class="fa fa-users" aria-hidden="true"></i> {{ $num_10 }} People</span>
 						</div>
 					</div>

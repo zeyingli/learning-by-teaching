@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('template_title')
-Start Lighting Up Your City
+Start Lighting Your Interesting Province On The Map
 @endsection
 
 @section('content')
@@ -37,7 +37,7 @@ Start Lighting Up Your City
 			                <div class="col-md-9">
 			                  <div class="input-group">
 			                    <select class="form-control" name="location" id="location" required>
-			                    	<option disabled>Please select the province that nearby your hometown</option>
+			                    	<option disabled>Please select a following province that you interesting</option>
 			                    	<option value="1">北京 (Beijing)</option>
 			                    	<option value="2">江苏 (Jiangsu)</option>
 			                    	<option value="3">四川 (Sichuan)</option>
@@ -61,7 +61,7 @@ Start Lighting Up Your City
 			            	</div>
 			        	</div>
 
-			        	{!! Form::button('<i class="fa fa-star" aria-hidden="true"></i>&nbsp;' . 'Lighting Up Your City On The Map', array('class' => 'btn btn-success btn-flat margin-bottom-1 pull-right','type' => 'submit', )) !!}
+			        	{!! Form::button('<i class="fa fa-star" aria-hidden="true"></i>&nbsp;' . 'Lighting Up Your Province On The Map', array('class' => 'btn btn-success btn-flat margin-bottom-1 pull-right','type' => 'submit', )) !!}
 
 			        	{!! Form::close() !!}
 

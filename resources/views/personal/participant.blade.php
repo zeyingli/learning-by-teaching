@@ -59,27 +59,27 @@ Participant List
                                             <td class="hidden-xs">{{ $user->name }}</td>
                                             <td class="hidden-xs">
                                                 @if($user->location == 1)
-                                                <span class="label label-primary">北京</span>
+                                                <span class="label label-primary">北京 (Beijing)</span>
                                                 @elseif($user->location == 2)
-                                                <span class="label label-success">江苏</span>
+                                                <span class="label label-success">江苏 (Jiangsu)</span>
                                                 @elseif($user->location == 3)
-                                                <span class="label label-danger">四川</span>
+                                                <span class="label label-danger">四川 (Sichuan)</span>
                                                 @elseif($user->location == 4)
-                                                <span class="label label-warning">湖北</span>
+                                                <span class="label label-warning">湖北 (Hubei)</span>
                                                 @elseif($user->location == 5)
-                                                <span class="label label-success">广东</span>
+                                                <span class="label label-success">广东 (Guangdong)</span>
                                                 @elseif($user->location == 6)
-                                                <span class="label label-warning">陕西</span>
+                                                <span class="label label-warning">陕西 (Shanxi)</span>
                                                 @elseif($user->location == 7)
-                                                <span class="label label-success">香港</span>
+                                                <span class="label label-success">香港 (Hongkong)</span>
                                                 @elseif($user->location == 8)
-                                                <span class="label label-primary">山东</span>
+                                                <span class="label label-primary">山东 (Shandong)</span>
                                                 @elseif($user->location == 9)
-                                                <span class="label label-primary">辽宁</span>
+                                                <span class="label label-primary">辽宁 (Liaoning)</span>
                                                 @elseif($user->location == 10)
-                                                <span class="label label-primary">内蒙古</span>
+                                                <span class="label label-primary">内蒙古 (Inner Mongolia)</span>
                                                 @else
-                                                <span class="label label-info">未知</span>
+                                                <span class="label label-info">未知 (Unknown)</span>
                                                 @endif
                                             </td>
                                             <td class="hidden-sm hidden-xs hidden-md">{{$user->created_at}}</td>
