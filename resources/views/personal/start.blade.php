@@ -33,11 +33,11 @@ Start Lighting Your Interesting Province On The Map
 						</div>
 
                         <div class="form-group has-feedback row {{ $errors->has('location') ? ' has-error ' : '' }}">
-			               <label for="location" class="col-md-3 control-label">Hometown Nearby</label>
+			               <label for="location" class="col-md-3 control-label">Select a Province</label>
 			                <div class="col-md-9">
 			                  <div class="input-group">
 			                    <select class="form-control" name="location" id="location" required>
-			                    	<option disabled>Please select a following province that you interesting</option>
+			                    	<option disabled>Please select a following province that you are interesting</option>
 			                    	<option value="1">北京 (Beijing)</option>
 			                    	<option value="2">江苏 (Jiangsu)</option>
 			                    	<option value="3">四川 (Sichuan)</option>
